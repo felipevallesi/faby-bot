@@ -1,0 +1,22 @@
+{
+  "name": "faby-whatsapp-bot",
+  "version": "1.0.0",
+  "description": "Un bot de WhatsApp basado en ChatGPT que imita a Faby Espinosa.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "npx vite-node src/index.ts"
+  },
+  "author": "Felipe Vallesi",
+  "license": "MIT",
+  "dependencies": {
+    "@adiwajshing/keyed-db": "^0.2.4",
+    "@hapi/boom": "^10.0.1",
+    "@whiskeysockets/baileys": "^6.7.12",
+    "chatgpt": "^4.4.1",
+    "dotenv": "^16.0.3",
+    "openai": "^4.85.1",
+    "pino": "^8.10.0",
+    "qrcode-terminal": "^0.12.0",
+    "vite-node": "^0.28.5"
+  }
+}
